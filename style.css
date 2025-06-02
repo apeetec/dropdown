@@ -1,0 +1,7 @@
+ul{padding: 0;list-style: none;}
+.display-flex{gap: 10px;list-style-type: none;padding: 20px 0;margin: 0;display:flex;}
+.dropbox{position: relative;}
+.droplist{position: absolute;visibility: hidden;opacity: 0;transition: ease-in-out .8s;top: 27px;width: 100%;}
+.active{visibility: visible;opacity: 1;transition: ease-in-out .8s;}
+.btn-dropdown{color: #fff;padding: 10px;background-color: #ee6e73;}
+.droplist li a{background-color: #bd6eee;color: #fff;padding: 10px;width:100%;display:inline-block;}
